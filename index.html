@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>To-Do App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="todo-style.css" rel="stylesheet"/>
+        <style>    
+            @media (max-width: 725px)
+            {
+                body{
+                        background-image: url(https://i.pinimg.com/originals/67/59/49/675949186cd7f66ac5ba009a35412841.jpg);
+                }
+
+                h1{
+                    width:100%;
+                }
+
+                #container
+                {
+                    width :95%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1> To-Do List</h1>
+        <main id="container">
+            <input type= "text" placeholder="Add a task" id="add-task"/>
+            <ul id="list">
+                <!--<li>
+                <input type="checkbox" id="task1"/>
+                <label for="task1"> To the gym</label>
+            </li> -->
+            </ul>
+        </main> 
+        <script src="todo-script.js"></script>
+     </body>
+</html>
